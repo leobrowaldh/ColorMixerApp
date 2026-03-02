@@ -1,0 +1,24 @@
+services:
+  backend:
+    build:
+      context: ./ColorMixer.Api
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    networks:
+      - color-mixer-net
+
+  frontend:
+    build:
+      context: ./color-mixer-frontend
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    networks:
+      - color-mixer-net
+
+networks:
+  color-mixer-net:
+    driver: bridge
