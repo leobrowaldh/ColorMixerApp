@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ColorMixer.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6fbc43c31fdf4b8ae08988a4a15c2cb0377741a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ColorMixer.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ColorMixer.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

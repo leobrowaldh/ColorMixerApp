@@ -14,6 +14,7 @@ var app = builder.Build();
 
 app.UseCors("AllowAll");
 
+app.MapGet("/health", () => Results.Ok("OK"));
 app.MapPost("/mix", (MixRequest request) =>
 {
     var color1 = ParseHex(request.Color1);

@@ -9,7 +9,7 @@ function App() {
     const mixColors = async () => {
         setLoading(true);
         try {
-            const response = await fetch('http://localhost:8080/mix', {
+            const response = await fetch('http://color-mixer-backend-alb-1223523957.eu-north-1.elb.amazonaws.com/mix', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
